@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOBO SHOP ®️</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="CSS/styles.css" />
+    
+  </head>
+  <body
+    class="bg-image"
+    style="background-image: url('tienda.jpg'); height: 100vh"
+  >
+    <div class="logolobo">
+      <a href="index.html">
+        <img src="LOGO1.png" alt="logo" class="logo-img" />
+      </a>
+    </div>
+
+    <header class="container-fluid bg-dark bg-gradient position-sticky top-0">
+      <ul
+        class="navbar nav ml-auto nav-pills mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            INICIO
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            PLAYERAS
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile2-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile2"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile2"
+              aria-selected="false"
+            >
+              SUDADERAS
+            </button>
+            <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile3-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile3"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile3"
+                  aria-selected="false"
+                >
+                  PANTALONES
+                </button>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-carrito-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-carrito"
+            type="button"
+            role="tab"
+            aria-controls="pills-carrito"
+            aria-selected="false"
+          >
+            NOSOTROS
+          </button>
+        </li>
+        
+        <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+              >CARRITO DE COMPRAS</a
+            >
+          </li>
+      </ul>
+    </header>
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+        Producto Añadido al carrito!
+        </div>
+        <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+          Producto removido!
+        </div>
+    
+
+    <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade "
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+        <H2 class="h1 m-2 text-white">PRODUCTOS EN TENDENCIAS </H2>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PLAYERA BK
+                  </h5>
+                  <img src="./img/playera4.jpg.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description">  ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>  <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PLAYERA WH</h5>
+                  <img src="./img/playera5.jpg.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 40 </p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PLAYERA RED</h5>
+                  <img src="./img/playera6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description">  ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O </p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">SUDADERA FL</h5>
+                  <img src="./img/sud.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 40</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary"> SUADERA ADIDAS J</h5>
+                  <img src="./img/sudo1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description">  ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>  <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">SUDADERA BIS</h5>
+                  <img src="./img/sudo2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description">  ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 40</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PANTALON GABARDINA
+                  </h5>
+                  <img src="./img/1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div>  <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PANTALON MEZCLILLA</h5>
+                  <img src="./img/2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">PANTALON NEGRO</h5>
+                  <img src="./img/6.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                    <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                    <div class="d-grid gap-2">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+              </div> 
+
+
+        </div>
+        </div>
+        
+      <div
+        class="tab-pane fade"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+        tabindex="0"
+      >
+       <H2 class="h1 m-2 text-white">PLAYERAS</H2>
+       <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
+
+        <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA BK S.</h5>
+              <img src="./img/negro.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description">ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA WHITE.</h5>
+              <img src="./img/playerablanca.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA  RED O </h5>
+              <img src="./img/rojo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description">ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA POP</h5>
+              <img src="./img/demon.jpg.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA WH</h5>
+              <img src="./img/playera3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA OJ</h5>
+              <img src="./img/playera4.jpg.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA TS</h5>
+              <img src="./img/playera5.jpg.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA  PA</h5>
+              <img src="./img/playera6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">PLAYERA HF</h5>
+              <img src="./img/playera2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+        
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-profile2"
+        role="tabpanel"
+        aria-labelledby="pills-profile2-tab"
+        tabindex="0"
+      >
+       <H2 class="h1 m-2 text-white">SUDADERAS</H2>
+       <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
+
+        <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA MX</h5>
+              <img src="./img/sudo3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA TH</h5>
+              <img src="./img/sud.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA NT </h5>
+              <img src="./img/sudadera1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA ADIDAS</h5>
+              <img src="./img/sudadera2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA PH</h5>
+              <img src="./img/sudadera3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O </p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA RD AD</h5>
+              <img src="./img/sudo1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>  <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA BI</h5>
+              <img src="./img/sudo2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SUDADERA BK</h5>
+              <img src="./img/sudo.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary"> SUDADERA THM</h5>
+              <img src="./img/sud.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div
+      class="tab-pane fade"
+      id="pills-profile3"
+      role="tabpanel"
+      aria-labelledby="pills-profile3-tab"
+      tabindex="0"
+    >
+     <H2 class="h1 m-2 text-white">PANTALONES</H2>
+     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
+
+      <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON GABARDINA
+            </h5>
+            <img src="./img/1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON MEZCLILLA</h5>
+            <img src="./img/2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON CUADROS</h5>
+            <img src="./img/3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON LISO</h5>
+            <img src="./img/4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON  FORMAL</h5>
+            <img src="./img/5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON NEGRO</h5>
+            <img src="./img/6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>  <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON MEZCLILLA CLARO</h5>
+            <img src="./img/cl.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON MEZCLILLA OBSCURO</h5>
+            <img src="./img/PANTALON.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">PANTALON IMPERMEABLE</h5>
+            <img src="./img/PANTALON2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-black-50 description"> ESTE ARTICULO LO PODRAS ENCONTRAR EN LAS TALLAS XXL Ó 4O</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+              <div class="d-grid gap-2">
+              <button  class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+      
+    </div>
+    <div
+    class="tab-pane fade"
+    id="pills-carrito"
+    role="tabpanel"
+    aria-labelledby="pills-carrito-tab"
+    tabindex="0"
+  >
+  <main class="contenedor">
+   <center><h1 class="nustros-productos">nosotros</h1>
+   </center> 
+    <div class="nosotros">
+        <img class="nosotros-img" src="abrigo.png" alt="nosotros">
+
+
+        <div class="nosotros-texto">
+            <p> En Lobo Shop apoyamos la inclusión 
+                y creemos que todos somos igual de importantes, 
+                es por ello que nuestros productos están
+                 enfocados hacia las personas que necesitan
+                  usar prendas de tallas extra y que no tan
+                   fácilmente se pueden conseguir en otras
+                    tiendas comerciales. </p>
+          
+
+        </div>
+    </div>
+
+</main>
+
+<section class="contenedor">
+    <div class="bloques">
+        <div class="bloque">
+           
+            <img src="SEGURIDAD.svg" alt="SEGURIDAD">
+            <h3 class="bloque-titulo">Protección</h3>
+            <p>El  control  de la seguridad de tu información y de  todos tus 
+                 pagos es muy importante para nosotros.</p>
+        </div>
+
+        <div class="bloque">
+            
+            <img src="entrega.svg" alt="entrega">
+            <h3 class="bloque-titulo">Protección</h3>
+            <p>Todas tus compras estan  protegidas,con
+                la seguridad de seguimiento  de todas tus compras hasta 
+               la puerta de tu domicilio.</p>
+
+
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+    </div>
+
+
+
+
+      <div class="tab-pane fade"
+      id="pills-contact"
+      role="tabpanel"
+      aria-labelledby="pills-contact-tab"
+      tabindex="0"> 
+      <table class="table table-primary table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+      </div>
+      
+
+      
+
+    </div>
+
+
+
+    <footer class="bg-dark bg-gradient p-3 mt-5">
+        <p class="text-center m-0 text-muted">
+            LOBOS-SHOP ®️
+        </p>
+      </footer>
+  
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+      ></script>
+      <!-- JavaScript Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"
+      ></script>
+      <script src="./js/scripts.js"></script>
+  </body>
+
+</html>

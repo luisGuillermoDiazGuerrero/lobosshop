@@ -1,0 +1,125 @@
+.fondo{
+    background-image: url(tienda.jpg);
+}
+.logo-img{
+    max-width: 30rem;
+    margin: 2rem ;
+   
+}
+.logolobo{
+    display: flex;
+    justify-content: center;
+}
+
+H2{
+    text-align: center;
+}
+
+
+  header, .alert{
+    z-index: 100;
+    background-color:white;
+  }
+  .header2{
+    display: flex;
+    justify-content: center;
+  }
+  .img-fondo{
+    background-image: url(tienda.jpg);
+    }
+  .description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+    height: 80px;
+  }
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hide, .remove{
+    display: none;
+  }
+
+
+
+
+  .contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+  .nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+    margin-bottom: 20rem;
+    
+    }
+    .nosotros-texto{
+        color: white;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .nosotros-img{
+        height: auto;
+        width:500px;
+        Background-color: white;
+        border-radius: 5%;
+    }
+    
+    .bloques{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20rem;
+    }
+    
+    .bloques img{
+        width: 20rem;
+        margin-bottom: 2rem;
+        height: 20rem;
+    }
+    .bloque-titulo{
+        margin:0;
+    }
+    
+    .bloque{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5rem;
+    }
+
+    .nustros-productos{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    
